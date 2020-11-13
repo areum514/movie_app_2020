@@ -12,7 +12,7 @@ return (
             {genres.map((genre,index)=> (
             <li key={index} className="genres__genre">{genre}</li>
             ))}    
-            <p className="movie__summary">{summary}</p>
+             <p className="movie__summary">{summary.slice(0, 180)}...</p>
         </div>
     </div>
     )
