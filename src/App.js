@@ -33,7 +33,7 @@ class App extends React.Component{
                   summary={movie.summary} 
                   small_cover_image={movie.small_cover_image}
                   genres={movie.genres}/>)}
-        </div>)})
+        </div>)}
       
       </section>
       )
