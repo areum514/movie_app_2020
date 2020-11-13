@@ -17,7 +17,8 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "test": "react-scripts test",
+        "depoly": "gh-pages -d build",
+        "predepoly": "npm run build",
         "eject": "react-scripts eject"
     },
     "eslintConfig": {
@@ -38,5 +39,5 @@
             "last 1 safari version"
         ]
     },
-    "homepage": "https://areum514.github.io/movie_app_2020"
+    "homepage": "https://areum514.github.io/movie_app_2020/"
 }
